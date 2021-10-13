@@ -9,7 +9,7 @@ for coin in array:
     count += n  # 해당 화폐로 거슬러 줄 수 있는 동전의 개수 세기
     n %= coin
 
-# print(count)
+print(count)
 
 
 # 첫째 줄에 N과 K가 공백을 기준으로 하여 각각 자연수로 주어집니다.
