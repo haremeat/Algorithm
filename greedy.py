@@ -34,4 +34,22 @@ count += (n - 1)
 print(count)
 
 
+# 곱하기 혹은 더하기
+S = input()
+
+# 첫 번째 문자를 숫자로 변경하여 대입
+result = int(S[0])
+
+for i in range(1, len(S)):
+    num = int(S[i])
+    if num <= 1 or result <= 1:
+        result += num
+    else:
+        result *= num
+
+print(result)
+
+
+
+
 
