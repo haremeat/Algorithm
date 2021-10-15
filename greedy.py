@@ -47,8 +47,6 @@ for i in range(1, len(S)):
     else:
         result *= num
 
-print(result)
-
 
 
 
