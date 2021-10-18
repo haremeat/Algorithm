@@ -38,16 +38,16 @@ print(count)
 S = input()
 
 # 첫 번째 문자를 숫자로 변경하여 대입
-result = int(S[0])
+result2 = int(S[0])
 
 for i in range(1, len(S)):
     num = int(S[i])
-    if num <= 1 or result <= 1:
-        result += num
+    if num <= 1 or result2 <= 1:
+        result2 += num
     else:
-        result *= num
+        result2 *= num
 
 
-
+print(result2)
 
 
