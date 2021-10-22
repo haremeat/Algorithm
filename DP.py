@@ -13,6 +13,7 @@
 #
 # print(dp[x])
 
+
 # N이라는 수는 N // 3 을 연산전으로 돌리면, 즉 +1을 하면 만들 수 있다.
 # N이라는 수는 N // 2 을 연산전으로 돌리면, 즉 +1을 하면 만들 수 있다.
 # N이라는 수는 N-1 을 연산전으로 돌리면, 즉 +1을 하면 만들 수 있다.
@@ -56,8 +57,3 @@ for i in range(n):
 dp[n] = dp[n - 1] + dp[n - 3] + array[n]
 dp[n] = dp[n - 2] + array[n]
 dp[n] = max(dp[n - 1] + dp[n - 3] + array[n], dp[n - 2] + array[n])
-
-
-
-
-
