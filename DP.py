@@ -117,5 +117,9 @@ for i in range(n):
         if d[j - array[i]] != 10001:
             d[j] = min(d[j], d[j - array[i]] + 1)
 
-
+# 계산된 결과 출력
+if d[m] == 10001:
+    print(-1)
+else:
+    print(d[m])
 
