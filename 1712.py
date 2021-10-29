@@ -28,18 +28,28 @@ production_cost = a + (b * entity)
 # 판매비용
 sales_cost = (c * entity)
 
-while sales_cost < production_cost:
-    entity += 1
-    production_cost = a + (b * entity)
-    sales_cost = (c * entity)
+# 손익분기점이 존재하지 않으면
+if c < b:
+    print(-1)
+else:
+    while sales_cost < production_cost:
+        entity += 1
+        production_cost = a + (b * entity)
+        sales_cost = (c * entity)
+
+    if sales_cost >= production_cost:
+        print(entity + 1)
 
 # print(sales_cost)
 # print(production_cost)
 
-if sales_cost >= production_cost:
-    print(entity + 1)
-else:
+a,b,c = map(int,input().split())
+
+# 손익분기점이 존재하지 않으면
+if c <= b:
     print(-1)
+else:
+    print(a // (c - b) + 1)
 
 
 
