@@ -7,8 +7,11 @@
 n = int(input())
 result = 1
 
-for i in range(1, n+1):
-    result = (i - 1) * 6
+while True:
+    result += 1
+    if n <= result * 6:
+        print(result)
+        break
 
 
 
