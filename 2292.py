@@ -4,17 +4,14 @@
 # 8~19: 3개 (12개까지)
 # 20~37 : 4개 (18개까지)
 
-# n = int(input())
-
-n = 6
+n = int(input())
 result = 1
+cnt = 1
 
-while True:
-    if n <= result * 6:
-        print(result + 1)
-        break
-    else:
-        result += 1
+while n > result:
+    result += 6 * cnt
+    cnt += 1
 
+print(cnt)
 
 
