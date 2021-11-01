@@ -14,3 +14,19 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+n = 210
+
+def hansu(num):
+    cnt = 0
+    for i in range(1, num+1):
+        if i < 100:
+            cnt += 1
+        else:
+            nums = list(map(int, str(i)))
+            if nums[0] - nums[1] == nums[1] - nums[2]:
+                cnt += 1
+    return cnt
+
+print(hansu(n))

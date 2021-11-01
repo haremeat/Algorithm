@@ -32,7 +32,6 @@ print(cnt)
 
 
 
-
 # 정답
 # def hansu(num):
 #     hansu_cnt = 0
