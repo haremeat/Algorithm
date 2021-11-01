@@ -9,3 +9,7 @@ for i in range(1, 10001):
         i += int(j)
     constructor_list.add(i)
 
+self_num = (original_list - constructor_list)
+
+for i in self_num:
+    print(i)
