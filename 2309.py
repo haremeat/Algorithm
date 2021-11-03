@@ -1,6 +1,6 @@
 # 일곱 난쟁이
 
-list = [int(input()) for i in range(9)]
+list = [int(input()) for _ in range(9)]
 
 total = sum(list)
 
@@ -20,4 +20,23 @@ list.remove(fake2)
 list.sort()
 
 for i in list:
+    print(i)
+
+
+
+# 다른 풀이
+from itertools import combinations
+people = list(int(input()) for _ in range(9))
+
+combi = list(combinations(people,2))
+
+for i in combi:
+    if sum(i) == sum(people) - 100 :
+        ans = list(set(people) - set(i))
+        break
+
+
+ans.sort()
+
+for i in ans :
     print(i)
