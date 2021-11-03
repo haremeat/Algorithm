@@ -15,7 +15,7 @@ for num in range(start_num, last_num + 1):
         if error == 0:
             sosu_list.append(num)
 if len(sosu_list) > 0:
-    print(sum(sosu_list)) # 최댓값
-    print(min(sosu_list)) # 최솟값
+    print(sum(sosu_list))  # 최댓값
+    print(min(sosu_list))  # 최솟값
 else:
     print(-1)
