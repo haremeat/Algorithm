@@ -1,49 +1,22 @@
-# This is a sample Python script.
+# 연습용 노트
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# people = [int(input()) for _ in range(9)]
 
+people = [20, 7, 23, 19, 10, 15, 25, 8, 13]
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+total = sum(people)
+fake0 = 0
+fake1 = 0
 
+for i in range(8):
+    for j in (i+1, 9):
+        if total - (people[i] + people[j]) == 100:
+            fake0 = people[i]
+            fake1 = people[j]
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+people.remove(fake0)
+people.remove(fake1)
+people.sort()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-
-n = 210
-
-def hansu(num):
-    cnt = 0
-    for i in range(1, num+1):
-        if i < 100:
-            cnt += 1
-        else:
-            nums = list(map(int, str(i)))
-            if nums[0] - nums[1] == nums[1] - nums[2]:
-                cnt += 1
-    return cnt
-
-print(hansu(n))
-
-
-n = int(input())
-
-def hansu(num):
-    cnt = 0
-    for i in range(1, num+1):
-        if i < 100:
-            cnt += 1
-        else:
-            nums = list(map(int,str(i)))
-            if nums[0] - nums[1] == nums[1] - nums[2]:
-                cnt += 1
-
-    return cnt
-
-print(hansu(n))
+for i in people:
+    print(i)
