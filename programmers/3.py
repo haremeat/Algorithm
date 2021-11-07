@@ -8,9 +8,9 @@ menu = ["PIZZA arraak 145", "HAMBURGER tkar 180", "BREAD kkk 30", "ICECREAM rar 
 sell = ["BREAD 5", "ICECREAM 100", "PIZZA 7", "JUICE 10", "WATER 1"]
 
 
-# dictionary = dict(zip(menu, sell))
-#
-# # print(dictionary)
+dictionary = dict(zip(menu, sell))
+
+# print(dictionary)
 
 
 menu_list = []
