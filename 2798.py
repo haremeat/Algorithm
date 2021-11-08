@@ -23,4 +23,19 @@ for i in range(n):
 print(result)
 
 
+# 다른 풀이
+
+from itertools import combinations
+
+card_num, target_num = map(int, input().split())
+card_list = list(map(int, input().split()))
+biggest_sum = 0
+
+for cards in combinations(card_list, 3):
+    temp_sum = sum(cards)
+    if biggest_sum < temp_sum <= target_num:
+        biggest_sum = temp_sum
+
+print(biggest_sum)
+
 
