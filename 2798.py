@@ -7,7 +7,7 @@ m = 21
 cards = [5, 6, 7, 8, 9]
 
 n, m = map(int, input().split())
-cards = list(int(input()) for _ in range(n))
+cards = list(map(int, input().split()))
 result = 0
 
 for i in range(n):
