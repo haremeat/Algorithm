@@ -35,3 +35,4 @@
 * [상수](https://github.com/haremeat/Algorithm/blob/main/boj/2908.py)
 * [셀프 넘버](https://github.com/haremeat/Algorithm/blob/main/boj/4673.py)
 * [덩치](https://github.com/haremeat/Algorithm/blob/main/boj/7568.py)
+* [고려대학교에는 공식 와인이 있다](https://github.com/haremeat/Algorithm/blob/main/boj/16673.py)
