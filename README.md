@@ -22,7 +22,7 @@
 * [손익분기점](https://github.com/haremeat/Algorithm/blob/main/boj/1712.py)
 * [수 이어 쓰기 1](https://github.com/haremeat/Algorithm/blob/main/boj/1748.py) - `미해결`
 * [수 찾기](https://github.com/haremeat/Algorithm/blob/main/boj/1920.py)
-* [소수 찾기](https://github.com/haremeat/Algorithm/blob/main/boj/1978.py) - `미해결`
+* [소수 찾기](https://github.com/haremeat/Algorithm/blob/main/boj/1978.py)
 * [분해합](https://github.com/haremeat/Algorithm/blob/main/boj/2231.py)
 * [벌집](https://github.com/haremeat/Algorithm/blob/main/boj/2292.py)
 * [일곱 난쟁이](https://github.com/haremeat/Algorithm/blob/main/boj/2309.py)
