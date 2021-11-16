@@ -37,3 +37,4 @@
 * [덩치](https://github.com/haremeat/Algorithm/blob/main/boj/7568.py)
 * [고려대학교에는 공식 와인이 있다](https://github.com/haremeat/Algorithm/blob/main/boj/16673.py)
 * [단어 뒤집기](https://github.com/haremeat/Algorithm/blob/main/boj/9093.py)
+* [괄호](https://github.com/haremeat/Algorithm/blob/main/boj/9012.py)
