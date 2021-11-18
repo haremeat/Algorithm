@@ -33,5 +33,3 @@ if not stack:
     print("\n".join(answer))
 else:
     print("NO")
-
-# 위는 오답
