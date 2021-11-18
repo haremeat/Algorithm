@@ -1,4 +1,10 @@
 # 스택 수열
+
+# pop()이 나와야 하는 조건 : stack[-1]값이 target과 같다
+# current가 target값과 작거나 같을 때까지는 계속 더해준다. +
+# 이 모든 과정이 끝났을 때 stack이 비어있지 않으면 NO를 출력한다.
+
+
 import sys
 input = sys.stdin.readline
 
@@ -24,12 +30,8 @@ for target in targets:
 
 
 if not stack:
-    for i in answer:
-        print(i)
+    print("\n".join(answer))
 else:
-    print("No")
+    print("NO")
 
 # 위는 오답
-
-
-
