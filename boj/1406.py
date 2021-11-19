@@ -6,21 +6,29 @@
 # P $ - $라는 문자를 커서 왼쪽에 추가함
 
 
-# import sys
-# input = sys.stdin.readline()
+import sys
+input = sys.stdin.readline()
 
-# basic = input
-# m = int(input)
-# command = [input for _ in range(m)]
-# left = []
-# right = []
-
-
-basic = "abc"
-m = 9
-command = ["L", "L", "L", "L", "L", "P x", "L", "B", "P y"]
+basic = input
+m = int(input)
+command = [input for _ in range(m)]
 left = []
 right = []
+
+# basic = "abcd"
+# m = 3
+# command = ["P x", "L", "P y"]
+
+# basic = "abc"
+# m = 9
+# command = ["L", "L", "L", "L", "L", "P x", "L", "B", "P y"]
+
+# basic = "dmih"
+# m = 11
+# command = ["B", "B", "P x", "L", "B", "B", "B", "P y", "D", "D", "P z"]
+
+# left = []
+# right = []
 
 for i in basic:
     left.append(i)
@@ -48,10 +56,10 @@ for i in command:
     elif co[0] == "P":
         left.append(co[1])
 
-
-arr = left + right
 result = ""
-for i in arr:
+for i in left:
     result += i
+
+result += ''.join(right[::-1])
 
 print(result)
