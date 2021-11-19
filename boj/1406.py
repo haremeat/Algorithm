@@ -16,9 +16,9 @@
 # right = []
 
 
-basic = "abcd"
-m = 3
-command = ["P x", "L", "P y"]
+basic = "abc"
+m = 9
+command = ["L", "L", "L", "L", "L", "P x", "L", "B", "P y"]
 left = []
 right = []
 
@@ -41,7 +41,10 @@ for i in command:
             left.append(right[-1])
             right.pop()
     elif co[0] == "B":
-        left.pop()
+        if not left:
+            pass
+        else:
+            left.pop()
     elif co[0] == "P":
         left.append(co[1])
 
