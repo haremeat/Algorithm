@@ -50,7 +50,6 @@ for i in range(m):
     elif co[0] == "P":
         left.append(co[1])
 
-result = ""
 arr = left + right[::-1]
 
 print(''.join(arr))
