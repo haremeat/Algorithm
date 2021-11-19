@@ -4,15 +4,15 @@
 # D - 커서를 오른쪽으로 한 칸 옮김 (커서가 문장의 맨 뒤일 경우 무시)
 # B - 커서 왼쪽의 문자를 삭제함
 # P $ - $라는 문자를 커서 왼쪽에 추가함
-
+# input = sys.stdin.readline()
+# [input() for _ in range(m)]
 
 import sys
-input = sys.stdin.readline()
 
-basic = input
-m = int(input)
-command = [input for _ in range(m)]
-left = []
+basic = sys.stdin.readline().rstrip()
+m = int(sys.stdin.readline())
+# command = [input() for _ in range(m)]
+left = list(basic)
 right = []
 
 # basic = "abcd"
@@ -27,14 +27,8 @@ right = []
 # m = 11
 # command = ["B", "B", "P x", "L", "B", "B", "B", "P y", "D", "D", "P z"]
 
-# left = []
-# right = []
-
-for i in basic:
-    left.append(i)
-
-for i in command:
-    co = i.split()
+for i in range(m):
+    co = sys.stdin.readline().split()
 
     if co[0] == "L":
         if not left:
@@ -57,9 +51,6 @@ for i in command:
         left.append(co[1])
 
 result = ""
-for i in left:
-    result += i
+arr = left + right[::-1]
 
-result += ''.join(right[::-1])
-
-print(result)
+print(''.join(arr))
