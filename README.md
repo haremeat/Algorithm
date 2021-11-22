@@ -40,3 +40,4 @@
 * [괄호](https://github.com/haremeat/Algorithm/blob/main/boj/9012.py)
 * [스택수열](https://github.com/haremeat/Algorithm/blob/main/boj/1874.py)
 * [에디터](https://github.com/haremeat/Algorithm/blob/main/boj/1406.py)
+* [요세푸스 문제](https://github.com/haremeat/Algorithm/blob/main/boj/1158.py)
