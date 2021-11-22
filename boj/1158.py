@@ -1,29 +1,25 @@
 # 요세푸스 문제
 
-import collections
-import sys
+from collections import deque
+# import sys
 
-# n = int(sys.stdin.readline())
-# m = int(sys.stdin.readline())
+n, m = map(int, input().split())
 
-n = 7
-m = 3
-data = []
+deq = deque()
 
-for i in range(n):
-    data.append(i)
+for i in range(1, n + 1):
+    deq.append(i)
 
-deq = collections.deque(data)
 result = []
-
 
 for i in range(n):
     for j in range(m):
-        deq.append(deq[0])
-        deq.pop()
-        if j % m == 0:
-            result.append(deq[-1])
+        if j == m - 1 and deq:
+            result.append(deq.popleft())
+        elif j < m - 1 and deq:
+            f = deq.popleft()
+            deq.append(f)
 
+# print(result)
 
-
-
+print("<" + ", ".join(map(str, result)) + ">")
