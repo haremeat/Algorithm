@@ -41,3 +41,4 @@
 * [스택수열](https://github.com/haremeat/Algorithm/blob/main/boj/1874.py)
 * [에디터](https://github.com/haremeat/Algorithm/blob/main/boj/1406.py)
 * [요세푸스 문제](https://github.com/haremeat/Algorithm/blob/main/boj/1158.py)
+* [단어 뒤집기 2](https://github.com/haremeat/Algorithm/blob/main/boj/17413.py)
