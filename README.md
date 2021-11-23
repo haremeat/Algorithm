@@ -42,3 +42,4 @@
 * [에디터](https://github.com/haremeat/Algorithm/blob/main/boj/1406.py)
 * [요세푸스 문제](https://github.com/haremeat/Algorithm/blob/main/boj/1158.py)
 * [단어 뒤집기 2](https://github.com/haremeat/Algorithm/blob/main/boj/17413.py)
+* [쇠막대기](https://github.com/haremeat/Algorithm/blob/main/boj/10799.py)
