@@ -15,9 +15,10 @@ for i in range(n):
         stack.pop()
         result[i] = arr[i + 1]
 
-        if stack and arr[stack[-1]] < arr[i + 1]:
+        while stack and arr[stack[-1]] < arr[i + 1]:
             result[stack[-1]] = arr[i + 1]
             stack.pop()
+
 
 # 스택 값이 남아있다면
 if stack:
