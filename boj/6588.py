@@ -1,4 +1,5 @@
 # 골드바흐의 추측
+# 아무리 바꿔봐도 시간초과를 피할 수가 없네
 
 import sys
 import math
