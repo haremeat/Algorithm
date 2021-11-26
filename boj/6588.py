@@ -8,8 +8,8 @@ prime_list = [True] * num
 
 for i in range(2, int(math.sqrt(num)) + 1):
     for j in range(i * 2, num, i):
-        if prime_list[j] is True:
-            prime_list[j] = False
+        prime_list[j] = False
+
 
 while True:
     n = int(sys.stdin.readline())
