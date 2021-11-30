@@ -46,3 +46,4 @@
 * [오큰수](https://github.com/haremeat/Algorithm/blob/main/boj/17298.py)
 * [골드바흐의 추측](https://github.com/haremeat/Algorithm/blob/main/boj/6588.py)
 * [팩토리얼 0의 개수](https://github.com/haremeat/Algorithm/blob/main/boj/1676.py)
+* [숨바꼭질 6](https://github.com/haremeat/Algorithm/blob/main/boj/17087.py)
