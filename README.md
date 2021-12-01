@@ -48,3 +48,4 @@
 * [팩토리얼 0의 개수](https://github.com/haremeat/Algorithm/blob/main/boj/1676.py)
 * [숨바꼭질 6](https://github.com/haremeat/Algorithm/blob/main/boj/17087.py)
 * [2×n 타일링](https://github.com/haremeat/Algorithm/blob/main/boj/11726.py)
+* [2×n 타일링 2](https://github.com/haremeat/Algorithm/blob/main/boj/11727.py)
