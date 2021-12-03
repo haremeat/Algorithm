@@ -50,5 +50,5 @@
 * [2×n 타일링](https://github.com/haremeat/Algorithm/blob/main/boj/11726.py)
 * [2×n 타일링 2](https://github.com/haremeat/Algorithm/blob/main/boj/11727.py)
 * [1, 2, 3 더하기](https://github.com/haremeat/Algorithm/blob/main/boj/9095.py)
-* [카드 구매하기](https://github.com/haremeat/Algorithm/blob/main/boj/9095.py) - `미해결`
+* [카드 구매하기](https://github.com/haremeat/Algorithm/blob/main/boj/11052.py) - `미해결`
 
