@@ -51,4 +51,5 @@
 * [2×n 타일링 2](https://github.com/haremeat/Algorithm/blob/main/boj/11727.py)
 * [1, 2, 3 더하기](https://github.com/haremeat/Algorithm/blob/main/boj/9095.py)
 * [카드 구매하기](https://github.com/haremeat/Algorithm/blob/main/boj/11052.py)
+* [가장 긴 증가하는 부분 수열](https://github.com/haremeat/Algorithm/blob/main/boj/11053.py) - `미해결`
 
