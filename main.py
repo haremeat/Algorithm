@@ -13,4 +13,3 @@ if b == 1 or a == 1 or a == 0:
 else:
     print("소수임")
 
-
