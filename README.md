@@ -17,7 +17,6 @@
 * [단어의 개수](https://github.com/haremeat/Algorithm/blob/boj/main/1152.py)
 * [단어 공부](https://github.com/haremeat/Algorithm/blob/main/boj/1157.py)
 * [숫자의 합](https://github.com/haremeat/Algorithm/blob/main/boj/11720.py)
-* [DFS와 BFS](https://github.com/haremeat/Algorithm/blob/main/boj/1260.py)
 * [날짜 계산](https://github.com/haremeat/Algorithm/blob/main/boj/1476.py)
 * [손익분기점](https://github.com/haremeat/Algorithm/blob/main/boj/1712.py)
 * [수 이어 쓰기 1](https://github.com/haremeat/Algorithm/blob/main/boj/1748.py) - `미해결`
@@ -51,5 +50,5 @@
 * [2×n 타일링 2](https://github.com/haremeat/Algorithm/blob/main/boj/11727.py)
 * [1, 2, 3 더하기](https://github.com/haremeat/Algorithm/blob/main/boj/9095.py)
 * [카드 구매하기](https://github.com/haremeat/Algorithm/blob/main/boj/11052.py)
-* [가장 긴 증가하는 부분 수열](https://github.com/haremeat/Algorithm/blob/main/boj/11053.py) - `미해결`
-
+* [가장 긴 증가하는 부분 수열](https://github.com/haremeat/Algorithm/blob/main/boj/11053.py)
+* [DFS와 BFS](https://github.com/haremeat/Algorithm/blob/main/boj/1260.py)
