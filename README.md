@@ -52,3 +52,4 @@
 * [카드 구매하기](https://github.com/haremeat/Algorithm/blob/main/boj/11052.py)
 * [가장 긴 증가하는 부분 수열](https://github.com/haremeat/Algorithm/blob/main/boj/11053.py)
 * [DFS와 BFS](https://github.com/haremeat/Algorithm/blob/main/boj/1260.py)
+* [미로 탐색](https://github.com/haremeat/Algorithm/blob/main/boj/2178.py)
