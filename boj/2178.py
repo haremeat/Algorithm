@@ -1,0 +1,6 @@
+# 미로 탐색
+
+import sys
+
+n, m = map(int, sys.stdin.readline().split())
+
